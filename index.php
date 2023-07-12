@@ -38,12 +38,12 @@
                     <button>Entrar</button>
                 </form>
                 <!-- Registro -->
-                <form action="" class="formulario-register">
+                <form action="./php/registro_usuario_be.php" method="POST" class="formulario-register">
                     <h2>Regístrarse</h2>
-                    <input type="text" placeholder="Nombre completo">
-                    <input type="text" placeholder="Correo">
-                    <input type="text" placeholder="Usuario">
-                    <input type="password" placeholder="Contraseña">
+                    <input type="text" placeholder="Nombre completo" name="nombre_completo">
+                    <input type="text" placeholder="Correo" name="correo">
+                    <input type="text" placeholder="Usuario" name="usuario">
+                    <input type="password" placeholder="Contraseña" name="password">
                     <button>Regístrarse</button>
                 </form>
             </div>
