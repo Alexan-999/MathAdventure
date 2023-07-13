@@ -19,6 +19,10 @@
 
 </head>
 <body>
+    
+        <div style="color: yellow; font-size: 60px; text-align: center; padding-top: 70px">
+            <p>Math Adventure</p>
+        </div>
 
     <main>
 
