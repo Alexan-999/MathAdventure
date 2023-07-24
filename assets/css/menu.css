@@ -7,14 +7,14 @@
 
 header {
     width: 100%;
-    height: auto;
+    height: 60px;
     background: #1e1e1e;
     position: fixed;
     z-index: 100;
 }
 
 .img-logo {
-    width: 80px;
+    width: 60px;
     margin-left: 10%;
     padding: 10px;
 }
@@ -22,7 +22,7 @@ header {
 .menu{
     width: auto;
     float: right;
-    margin-top: 30px;
+    margin-top: 19px;
     margin-right: 10%;
 }
 
@@ -35,9 +35,9 @@ header {
 }
 
 .menu li a {
-    padding: 18px;
+    padding: 10px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: #b7b7b7;
 }
@@ -54,7 +54,7 @@ header {
 }
 
 #check:checked ~ .menu{
-    height: 250px;
+    height: 174px;
 }
 
 @media  screen and (max-width:900px){
@@ -62,11 +62,11 @@ header {
         display: block;
         color: white;
         float: right;
-        padding: 10px;
+        padding: 5px;
         font-size: 24px;
         border: 1px solid #7a7a7a;
         border-radius: 5px;
-        margin-top: 14px;
+        margin-top: 10px;
         margin-right: 16px;
     }
     .icon-menu:hover{
