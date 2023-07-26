@@ -1,0 +1,12 @@
+footer {
+    margin-top: 60px;
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+    background: #1e1e1e;
+    color: #d1d1d1;
+}
+
+footer p:hover{
+    color: #eb797b;
+}

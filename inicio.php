@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="./assets/css/icons/fontello.css">
     <link rel="stylesheet" href="./assets/css/menu.css">
     <link rel="stylesheet" href="./assets/css/estilos-index.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
 
@@ -34,7 +36,7 @@
 
        <nav class="menu">
             <ul>
-                <li><a href="#" style="background:#df6666;color:white;border-radius:20px;">Inicio</a></li>
+                <li><a href="#">Inicio</a></li>
                 <li><a href="#">Acerca de</a></li>
                 <li><a href="#">Misión y Visión</a></li>
                 <li><a href="./php/cerrar_sesion.php">Cerrar Sesión</a></li>
@@ -80,6 +82,15 @@
                 <img src="./assets/images/Gamificacion.png" alt="Gamificacion">
             </div>
         </div>
+        <div class="content-four">
+            <div class="content-item4">
+                <h4>Jugar y aprender ahora es posible</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid aut voluptate consectetur? Molestiae consequatur minus aut illo. Repellendus esse excepturi eum quia incidunt aperiam eaque reprehenderit sit soluta? Dolores, autem.</p>
+            </div>
+        </div>
     </main>
+    <footer>
+        <p>Proyecto modular INNI</p>
+    </footer>
 </body>
 </html>

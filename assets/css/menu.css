@@ -46,6 +46,12 @@ header {
     color: white;
 }
 
+.menu li:nth-child(1) a{
+    background:#df6666;
+    color:white;
+    border-radius:20px;
+}
+
 #check {
     display: none;
 }
