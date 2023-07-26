@@ -36,9 +36,9 @@
 
        <nav class="menu">
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Acerca de</a></li>
-                <li><a href="#">Misión y Visión</a></li>
+                <li id="inicio"><a href="#" id="inicio2">Inicio</a></li>
+                <li id="acercade"><a href="#" id="acercade2">Acerca de</a></li>
+                <li id="misionvision"><a href="#" id="misionvision2">Misión y Visión</a></li>
                 <li><a href="./php/cerrar_sesion.php">Cerrar Sesión</a></li>
             </ul>
        </nav>
@@ -92,5 +92,9 @@
     <footer>
         <p>Proyecto modular INNI</p>
     </footer>
+
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/scroll.js"></script>
+
 </body>
 </html>
